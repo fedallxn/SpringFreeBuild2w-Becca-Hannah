@@ -3,6 +3,6 @@ package repositories;
 import models.Potion;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface potionRepository extends JpaRepository <Potion, Integer> {
+public interface PotionRepository extends JpaRepository <Potion, Integer> {
 
 };
